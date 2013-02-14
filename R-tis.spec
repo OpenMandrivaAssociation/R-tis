@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.18
+Version:          1.23
 Release:          1
 Summary:          Time Indexes and Time Indexed Series
 Group:            Sciences/Mathematics
 License:          Unlimited
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/tis_1.23.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
 %description
@@ -37,11 +37,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.18-1
-+ Revision: 775419
-- Import R-tis
-- Import R-tis
-

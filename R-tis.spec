@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.23
-Release:          1
+Release:          2
 Summary:          Time Indexes and Time Indexed Series
 Group:            Sciences/Mathematics
 License:          Unlimited

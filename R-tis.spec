@@ -7,7 +7,7 @@ Release:          3
 Summary:          Time Indexes and Time Indexed Series
 Group:            Sciences/Mathematics
 License:          Unlimited
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/tis_1.23.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
